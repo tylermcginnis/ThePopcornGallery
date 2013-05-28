@@ -1,0 +1,352 @@
+body{
+	background-image: url('../images/carbon.png'); 
+	font-family: 'Oswald', sans-serif;
+	} 
+	
+	#container{
+	
+	} 
+	
+		.content_container{
+			width: 55%; 
+			min-width: 880px; 
+			min-height: 768px; 
+			margin: 0px auto; 
+		}
+			
+			#home{
+				background-image: url('../images/dark_bg.png'); 
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				min-height: 1005px; 
+				height: 100%; 
+			} 
+			
+				#top_links{
+					float: right; 
+					padding-top: 10px; 
+					padding-right: 30px;
+				
+				} 
+				
+					#top_links ul{
+						display: inline; 
+						list-style-type: none; 
+					} 
+					
+						#top_links ul li{
+						display: inline; 
+						padding: 10px; 
+						} 
+				
+							#top_links a{
+								color: #858585;  
+								text-decoration: none; 	
+							} 
+						
+								#top_links a:hover{
+									color: #bebebe; 
+									
+								}
+
+				#logo{
+					background-image: url('../images/logo.png'); 
+					position: relative; 
+					width: 268px; 
+					height: 52px; 
+					margin-left: 10px; 
+					top: 10px; 
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border-radius: 5px;
+				} 
+				
+				#slogan{
+					font-size: 32px; 
+					position: relative; 
+					width: 735px; 
+					top: 2%; 
+					margin: 0px auto;  
+					color: #BDBDBD; 
+					 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+				} 
+				
+				#slogan_faq{
+					font-size: 22px; 
+					position: relative; 
+					width:515px; 
+					top: 2%; 
+					margin: 0px auto;  
+					color: #BDBDBD; 
+					 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+				}
+				
+					#slogan h1{
+						font-size: 34px; 
+						text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+						
+					} 
+					
+					#slogan  h1#faq{
+						width: 400px; 
+						border: 1px solid red; 
+					}
+				
+				#second_slogan{
+					position: relative: 
+					width: 500px; 
+					color: #BDBDBD;
+					padding-top: 10px; 
+					margin: 0px auto; 
+					text-align: center; 
+				} 
+
+				.left_bubbles{
+					width: 400px; 
+					float: left; 
+					margin-top: 30px; 
+				} 
+				
+					.bubble{
+						position: relative; 
+						float: left; 
+						background-color:#eee;
+						margin-left: 30px;
+						padding:10px;
+						text-align:center;
+						width:180px;
+						-moz-border-radius:10px;
+						-webkit-border-radius:10px;
+						-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+					}
+				
+					.bubble:after {
+						position: absolute;
+						display: block;
+						content: "";  
+						border-color: #eee transparent transparent transparent;
+						border-style: solid;
+						border-width: 10px;
+						height:0;
+						width:0;
+						position:absolute;
+						bottom:-19px;
+						left:1em;
+					}
+				
+					.bubble_two{
+						position: relative; 
+						float: left; 
+						margin-top: 90px; 
+						background-color:#eee;
+						margin-left: 30px;
+						padding:10px;
+						text-align:center;
+						width:180px;
+						-moz-border-radius:10px;
+						-webkit-border-radius:10px;
+						-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+					}
+				
+					.bubble_two:after {
+						position: absolute;
+						display: block;
+						content: "";  
+						border-color: #eee transparent transparent transparent;
+						border-style: solid;
+						border-width: 10px;
+						height:0;
+						width:0;
+						position:absolute;
+						bottom:-19px;
+						left:1em;
+					}
+				
+				.right_bubbles{
+					width: 400px; 
+					float: right; 
+					margin-top: 30px; 
+					position: relative; 
+					max-width: 260px; 
+
+				} 
+				
+					.bubble_three{
+						position: relative; 
+						float: left; 
+						background-color:#eee;
+						margin-right: 30px;
+						padding:10px;
+						text-align:center;
+						width:180px;
+						-moz-border-radius:10px;
+						-webkit-border-radius:10px;
+						-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+					}
+				
+					.bubble_three:after {
+						position: absolute;
+						display: block;
+						content: "";  
+						border-color: #eee transparent transparent transparent;
+						border-style: solid;
+						border-width: 10px;
+						height:0;
+						width:0;
+						position:absolute;
+						bottom:-19px;
+						left:1em;
+					}
+				
+					.bubble_four{
+						position: relative; 
+						float: left; 
+						margin-top: 90px; 
+						margin-right: 30px;
+						background-color:#eee;
+						padding:10px;
+						text-align:center;
+						width:180px;
+						-moz-border-radius:10px;
+						-webkit-border-radius:10px;
+						-webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						-moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+						box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+					}
+				
+					.bubble_four:after {
+						position: absolute;
+						display: block;
+						content: "";  
+						border-color: #eee transparent transparent transparent;
+						border-style: solid;
+						border-width: 10px;
+						height:0;
+						width:0;
+						position:absolute;
+						bottom:-19px;
+						left:1em;
+					}
+				
+				#iphone{
+					background-image: url('../images/iphone_smaller.png'); 
+					margin: 0px auto; 
+					width: 330px; 
+					height: 612px; 
+					-webkit-transition: all 1s ease;
+					-moz-transition: all 1s ease;
+					-o-transition: all 1s ease;
+					transition: all 1s ease;
+					
+				} 
+				
+				#iphone:hover{
+					width:330px;
+					height:612px;
+					transform:rotate(5deg);
+					-moz-transform:rotate(5deg); /* Firefox 4 */
+					-webkit-transform:rotate(5deg); /* Safari and Chrome */
+					-o-transform:rotate(5deg); /* Opera */
+				}
+				
+				/* END HOME CSS  */ 
+				
+				
+				/* BEGIN CSS SECTION 2 FAQ*/ 
+				#section_two{
+					background-image: url('../images/dark_bg.png'); 
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border-radius: 5px;
+					min-height: 1105px; 
+					height: 100%; 
+				} 
+				
+				#faq_container{
+					
+				} 
+				
+				#question{
+					font-size: 22px; 
+					position: relative; 
+					padding-left: 15px; 
+					top: 5%; 
+					padding-top: 50px;
+					margin: 0px auto;  
+					color: #BDBDBD; 
+					 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+				} 
+				
+				#answer{
+					padding-left: 30px; 
+					font-size: 19px; 
+					padding-right: 10px; 
+				} 
+			
+			
+			/* END CSS SECTION 2  */ 
+			
+			/*BEGIN CSS SECTION 3 */ 
+			#section_three{
+				background-image: url('../images/dark_bg.png'); 
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				min-height: 1105px; 
+				height: 100%; 
+			} 
+			
+			/*End CSS Section 3
+			
+			/* BEGIN CSS THE TEAM SECTION */ 
+			#the_team{
+				background-image: url('../images/dark_bg.png'); 
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				height: 100%; 
+				min-height: 1105px; 
+				text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+				} 
+				
+			#the_team h1{
+				font-size: 64px; 
+				width: 295px; 
+				padding-top: 50px;
+				margin: 0px auto;  
+				color: #BDBDBD; 
+				 text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+			}
+			
+			#the_team ul{
+				width: 650px; 
+				margin: 0px auto; 
+			} 
+				.roundabout-holder {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+					height: 20em;
+					width: 20em;
+					color: white; 
+					font-size: 24px; 
+				}
+				.roundabout-moveable-item {
+					height: 301px;
+					width: 301px;
+					cursor: pointer;
+					background-color: #ccc;
+					border: 1px solid #999;
+				}
+				.roundabout-in-focus {
+					cursor: auto;
+				}
+			
+			/* END CSS THE TEAM SECTION */ 
